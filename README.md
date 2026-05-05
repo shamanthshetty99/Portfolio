@@ -1,6 +1,6 @@
 # 🌐 Shamanth Shetty Portfolio
 
-🚀 Live Demo: https://shamanthshetty99.github.io/portfolio/
+🚀 Live Demo:https://shamanthshetty99.github.io/Portfolio/
 
 ## 📌 About
 This is my personal portfolio website built using HTML, CSS, and JavaScript.  

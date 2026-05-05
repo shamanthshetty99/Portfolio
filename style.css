@@ -422,3 +422,36 @@ body.light .nav-logo {
         font-size: 28px;
     }
 }
+
+@media(max-width:768px){
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+}
+
+form {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

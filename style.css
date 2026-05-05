@@ -455,3 +455,32 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* MOBILE NAV */
+@media(max-width:768px){
+
+    .menu-toggle {
+        display: block;
+        font-size: 22px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav-center {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #0b0f19;
+        padding: 20px;
+    }
+
+    .nav-center.active {
+        display: flex;
+    }
+}

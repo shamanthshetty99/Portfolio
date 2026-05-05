@@ -51,3 +51,6 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     });
 });
 
+function toggleMenu() {
+    document.querySelector(".nav-center").classList.toggle("active");
+}

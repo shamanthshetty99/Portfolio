@@ -400,3 +400,25 @@ body.light .nav-btn,
 body.light .nav-logo {
     color: #0f172a;
 }
+
+@media(max-width:768px){
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-left img {
+        width: 180px;
+        margin: 20px 0;
+    }
+
+    .hero-right {
+        margin: 0;
+    }
+
+    .hero-right h1 {
+        font-size: 28px;
+    }
+}

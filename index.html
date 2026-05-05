@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shamanth Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+    <div class="logo"><a href="#hero" class="nav-logo"><b>Shamanth Shetty</b></a></div>
+
+    <div class="nav-center">
+        <a href="#about" class="nav-btn">About Me</a>
+        <a href="#projects" class="nav-btn">Projects</a>
+        <a href="#skills" class="nav-btn">Skills</a>
+        <a href="#certifications" class="nav-btn">Certifications</a>
+        <a href="#blog" class="nav-btn">Blog</a>
+        <a href="#contact" class="nav-btn">Contact</a>
+    </div>
+
+    <div class="nav-right">
+        <!-- RESUME BUTTON FIX -->
+        <a href="4CB22CG044-SHAMANTH-SHETTY-Resume (1).pdf" target="_blank" class="resume-btn">Resume</a>
+        <button id="toggle" class="theme-btn">🌙</button>
+    </div>
+</header>
+
+<!-- HERO -->
+<div class="hero-pg">
+<section class="hero" id="hero">
+    <div class="hero-right">
+        <h1>Hi, I'm <span>Shamanth Shetty</span></h1>
+        <p>
+            Learner | Computer Science & Design Student | React •Java • Spring Boot 
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Work</a>
+            <a href="#contact" class="outline">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero-left">
+        <img src="Shetty1.png">
+    </div>
+</section>
+</div>
+
+<div class="hero-pg">
+<section id="about" class="section">
+    <h2>About Me</h2>
+
+    <p>
+        I'm <b>Shamanth Shetty</b>, a Computer Science & Design student at 
+        Canara Engineering College with a CGPA of 8.26.
+    </p>
+
+    <p>
+        I specialize in frontend development and enjoy building modern, 
+        responsive web applications. I also have backend experience using 
+        Java, Spring Boot, and MySQL.
+    </p>
+
+    <p>
+        I’m passionate about solving real-world problems through technology, 
+        collaborating in teams, and continuously improving my development skills.
+    </p>
+</section>
+</div>
+
+<div class="hero-pg">
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="grid">
+
+        <!-- WORKHUB -->
+        <div class="card" onclick="toggleProject(this)">
+            <h3>WorkHub</h3>
+            <p class="short">Click to view full details</p>
+
+            <div class="project-details">
+                <p><b>Overview:</b> WorkHub is a full-stack employee management system designed to simplify workforce operations in organizations.</p>
+
+                <p><b>Problem Solved:</b> Managing employee data, leave requests, and reports manually is inefficient and error-prone.</p>
+
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Secure authentication for employees & administrators</li>
+                    <li>Leave request and approval system</li>
+                    <li>Employee profile management</li>
+                    <li>Admin dashboard with reports</li>
+                </ul>
+
+                <p><b>Tech Stack:</b> React, TypeScript, Tailwind CSS, Java, Spring Boot, PostgreSQL</p>
+
+                <p><b>My Role:</b> Developed frontend UI, integrated APIs, and implemented backend logic for employee workflows.</p>
+            </div>
+        </div>
+
+        <!-- DONOR LOCATOR -->
+        <div class="card" onclick="toggleProject(this)">
+            <h3>Precision-Based Donor Locator</h3>
+            <p class="short">Click to view full details</p>
+
+            <div class="project-details">
+                <p><b>Overview:</b> A web platform that connects blood donors and recipients during emergencies.</p>
+
+                <p><b>Problem Solved:</b> Difficulty in quickly finding nearby blood donors during urgent situations.</p>
+
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Location-based donor matching</li>
+                    <li>Search by blood group</li>
+                    <li>Fast emergency response system</li>
+                    <li>Real-time database updates</li>
+                </ul>
+
+                <p><b>Tech Stack:</b> React, Next.js, ExpressJS, MongoDB</p>
+
+                <p><b>My Role:</b> Built frontend components, implemented search functionality, and handled backend integration.</p>
+            </div>
+        </div>
+
+        <!-- RAGAAMITRA -->
+        <div class="card" onclick="toggleProject(this)">
+            <h3>Ragaamitra</h3>
+            <p class="short">Click to view full details</p>
+
+            <div class="project-details">
+                <p><b>Overview:</b> An AI-powered mobile application that helps users learn tabla through interactive feedback.</p>
+
+                <p><b>Problem Solved:</b> Traditional music learning lacks real-time feedback and accessibility.</p>
+
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Real-time sound recognition</li>
+                    <li>Visual finger placement guidance</li>
+                    <li>Structured lessons for beginners</li>
+                    <li>Instant performance feedback</li>
+                </ul>
+
+                <p><b>Tech Stack:</b> Kotlin (Android), Python, TensorFlow Lite</p>
+
+                <p><b>My Role:</b> Worked on AI integration, app logic, and user interaction features.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+</div>
+
+
+<!-- SKILLS -->
+<div class="hero-pg">
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="grid small">
+        <div class="pill">HTML</div>
+        <div class="pill">CSS</div>
+        <div class="pill">JavaScript</div>
+        <div class="pill">React</div>
+        <div class="pill">Java</div>
+        <div class="pill">Spring Boot</div>
+        <div class="pill">MySQL</div>
+        <div class="pill">Git</div>
+    </div>
+</section>
+</div>
+
+<div class="hero-pg">
+<section id="certifications" class="section">
+    <h2>Certifications</h2>
+
+    <div class="grid">
+        <a href="Deloitte Job SIm.pdf" target="_blank" class="card">Oracle Java Foundations</a>
+        <a href="Deloitte Job SIm.pdf" target="_blank" class="card">Infosys Java</a>
+        <a href="J.P.Morgan certificate.pdf" target="_blank" class="card">JPMorgan Simulation</a>
+        <a href="Walmart Job-Simulation.pdf" target="_blank" class="card">Walmart Simulation</a>
+    </div>
+</section>
+</div>
+
+
+<div class="hero-pg">
+    <section id="blog" class="section">
+    <h2>Blog</h2>
+
+    <div class="grid">
+
+        <!-- BLOG 1 -->
+        <div class="card" onclick="toggleBlog(this)">
+            <h3>Building My Portfolio Website</h3>
+            <p class="short">Click to read more</p>
+
+            <div class="blog-details">
+                <p><b>Date:</b> March 2026</p>
+
+                <p><b>Overview:</b> In this blog, I explain how I built my personal portfolio website using HTML, CSS, and JavaScript.</p>
+
+                <p><b>Key Learnings:</b></p>
+                <ul>
+                    <li>Creating responsive layouts using Flexbox and Grid</li>
+                    <li>Implementing dark mode using JavaScript</li>
+                    <li>Adding animations and interactive UI elements</li>
+                    <li>Deploying using GitHub Pages</li>
+                </ul>
+
+                <p><b>Outcome:</b> Improved my frontend skills and learned how to design user-friendly interfaces.</p>
+            </div>
+        </div>
+
+        <!-- BLOG 2 -->
+        <div class="card" onclick="toggleBlog(this)">
+            <h3>Frontend Development Roadmap</h3>
+            <p class="short">Click to read more</p>
+
+            <div class="blog-details">
+                <p><b>Date:</b> February 2026</p>
+
+                <p><b>Overview:</b> A complete roadmap for beginners who want to become frontend developers.</p>
+
+                <p><b>Topics Covered:</b></p>
+                <ul>
+                    <li>HTML, CSS fundamentals</li>
+                    <li>JavaScript basics & DOM manipulation</li>
+                    <li>React and modern frameworks</li>
+                    <li>Version control using Git & GitHub</li>
+                </ul>
+
+                <p><b>Tip:</b> Focus on building projects rather than just learning theory.</p>
+            </div>
+        </div>
+
+        <!-- BLOG 3 -->
+        <div class="card" onclick="toggleBlog(this)">
+            <h3>My Experience with Full Stack Projects</h3>
+            <p class="short">Click to read more</p>
+
+            <div class="blog-details">
+                <p><b>Date:</b> January 2026</p>
+
+                <p><b>Overview:</b> Sharing my experience building full-stack applications like WorkHub and Donor Locator.</p>
+
+                <p><b>Challenges Faced:</b></p>
+                <ul>
+                    <li>Connecting frontend with backend APIs</li>
+                    <li>Managing database efficiently</li>
+                    <li>Handling authentication and security</li>
+                </ul>
+
+                <p><b>Key Takeaway:</b> Full-stack development requires understanding both UI and backend logic.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+</div>
+
+<div class="hero-pg">
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+</section>
+</div>
+
+<div class="hero-pg">
+<footer>
+    <h3>Shamanth Shetty</h3>
+
+    <div class="footer-links">
+        <a href="https://github.com/shamanthshetty99" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/shamanthshetty99" target="_blank">LinkedIn</a>
+    </div>
+
+    <p>© 2026 All rights reserved</p>
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
